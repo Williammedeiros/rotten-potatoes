@@ -27,7 +27,6 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags:
-            williammedeiros007/rotten-potatoes:latest
             williammedeiros007/rotten-potatoes:${{ github_run_number }}
 
 
